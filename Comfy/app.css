@@ -682,7 +682,7 @@
   background-image: linear-gradient(
     90deg,
     var(--spice-progress-fg) 93%,
-    transparent 100%
+    transparent 25%
   );
 }
 :root
@@ -847,7 +847,7 @@
   background: linear-gradient(
     to bottom,
     transparent,
-    rgba(var(--spice-rgb-player), 0.5)
+    rgba(var(--spice-rgb-player), 0.25)
   );
   pointer-events: none;
   border-radius: 8px;
@@ -2832,7 +2832,7 @@
 :root .npv-background-image__overlay {
   background: linear-gradient(
       rgba(var(--spice-rgb-shadow), 0.5) 0,
-      transparent 100%
+      transparent 25%
     ),
     var(--background-noise);
   background-color: unset;
